@@ -1,6 +1,16 @@
 原项目出自一个大佬的博客，猫与向日葵。[阅读原文](https://imjad.cn/archives/lab/add-dynamic-poster-girl-with-live2d-to-your-blog-02 "阅读原文")  
 本文对于原文和原作有删改。  
 
+WordPress插件版安装即可使用，不用手动添加代码 (推荐使用)  原作者[@daidr](https://daidr.me "@daidr")
+
+原模型来自手游[药水制作师];
+洛天依模型是我通过贴图修改制作的，流下了不会画画的泪水。。。。
+
+增加了播放音乐的功能；
+因为只有一个模型，暂时隐藏了换装功能
+详细信息请看我的博客[阅读原文](https://unsignedzhang.cn/luotianyi-live2d/ "阅读原文")  
+
+可以访问我的主页或 https://unsignedzhang.cn/live2d.html 查看演示
 
 ### 正式开工
 在你博客程序头部文件（header）引入界面样式，在 head 标签内插入如下代码：
@@ -21,7 +31,7 @@
 ```html
 <script type="text/javascript">
     var message_Path = '/live2d/'
-    var home_Path = 'https://haremu.com/'  //此处修改为你的域名，必须带斜杠
+    var home_Path = 'https://localhost/'  //此处修改为你的域名，必须带斜杠
 </script>
 <script type="text/javascript" src="/live2d/js/live2d.js"></script>
 <script type="text/javascript" src="/live2d/js/message.js"></script>
@@ -69,8 +79,8 @@ PHP 程序推荐使用主题函数获取绝对路径。
 
 
 ### 模型欣赏
-![](https://haremu.com/wp-content/uploads/2017/12/QQ%E6%88%AA%E5%9B%BE20171202210923.png)  
-![](https://haremu.com/wp-content/uploads/2017/12/QQ%E6%88%AA%E5%9B%BE20171202210951.png)
+![](https://unsignedzhang.cn/wp-content/uploads/20190423161907.png)
+![](https://unsignedzhang.cn/wp-content/uploads/20190423161719.png)
 
 ### 模型说明
 > Live2D 并不是一种先进的技术，它产生的效果，都是用基本的平移、旋转、透明、曲面变形等操作实现的。
@@ -79,6 +89,6 @@ PHP 程序推荐使用主题函数获取绝对路径。
 
 原模型解包自 [药水制作师](https://play.google.com/store/apps/details?id=com.sinsiroad.potionmaker&hl=zh_CN "药水制作师") 手机游戏，版权归该官方所有。
 
-洛天依模型是通过贴图修改制作的，流下了不会画画的泪水。。。。
+
 
 
